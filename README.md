@@ -14,7 +14,7 @@ const status = tryCatch({
   catchFn: (err) => 'error',
 });
 
-console.log(status2); // error
+console.log(status); // error
 ```
 
 Pass single function argument to simply "silence" any exception it throws.
@@ -24,5 +24,5 @@ const status = tryCatch(() => {
   throw new Error('error');
 });
 
-console.log(status1); // null
+console.log(status); // null
 ```
