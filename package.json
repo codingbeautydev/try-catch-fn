@@ -1,6 +1,6 @@
 {
   "name": "try-catch-fn",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
   "description": "Functional JavaScript try-catch implementation",
@@ -36,5 +36,8 @@
   "np": {
     "tests": false,
     "2fa": false
+  },
+  "engines": {
+    "node": ">=12.0.0"
   }
 }
