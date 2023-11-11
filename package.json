@@ -1,0 +1,40 @@
+{
+  "name": "try-catch-fn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "Functional JavaScript try-catch implementation",
+  "homepage": "https://github.com/codingbeautydev.com/try-catch-fn#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codingbeautydev/try-catch-fn"
+  },
+  "keywords": [
+    "try",
+    "catch",
+    "functional"
+  ],
+  "author": {
+    "email": "tariibabadev@gmail.com",
+    "name": "Tari Ibaba",
+    "url": "https://codingbeautydev.com"
+  },
+  "files": [
+    "dist/",
+    "package.json",
+    "README.md"
+  ],
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "yarn build",
+    "prebuild": "rimraf dist"
+  },
+  "np": {
+    "tests": false,
+    "2fa": false
+  }
+}
