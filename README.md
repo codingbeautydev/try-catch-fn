@@ -7,6 +7,8 @@ More info here: [This is how functional try-catch transforms your JavaScript cod
 ## Usage
 
 ```js
+import { tryCatch } from 'try-catch-fn';
+
 const status = tryCatch({
   tryFn: () => {
     throw new Error('network error');
@@ -20,6 +22,8 @@ console.log(status); // error
 Pass single function argument to simply "silence" any exception it throws.
 
 ```js
+import { tryCatch } from 'try-catch-fn';
+
 const status = tryCatch(() => {
   throw new Error('error');
 });
