@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "description": "Functional JavaScript try-catch implementation",
-  "homepage": "https://github.com/codingbeautydev.com/try-catch-fn#readme",
+  "homepage": "https://github.com/codingbeautydev/try-catch-fn#readme",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
